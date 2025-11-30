@@ -12,8 +12,8 @@ export default function Services() {
         <div >
           <h3 className="text-2xl font-semibold mb-2">Editorial Styling</h3>
           <p className="opacity-80">
-            High-concept looks for magazines, campaigns, and visual projects —
-            precise, dramatic, unapologetically iconic.
+            High-concept looks for magazines, campaigns, and visual projects.
+            Precise, dramatic and unapologetically iconic.
           </p>
         </div>
 

@@ -8,7 +8,7 @@ type HeroType = {
 export default function Hero({ title, subtitle, image }: HeroType) {
   // console.log('whats up')
   return (
-    <div className="relative h-[90vh] w-full overflow-hidden select-none">
+    <div className="relative h-[100vh] w-full overflow-hidden select-none">
       
       <img
         src={image}
@@ -27,7 +27,7 @@ export default function Hero({ title, subtitle, image }: HeroType) {
         </p>
 
         <button className="mt-10 px-8 py-4 bg-ocha text-ebony font-bold rounded-full hover:bg-clay transition">
-          <a href="#about">
+          <a href="#portfolio">
           Explore Styles
           </a>
         </button>
