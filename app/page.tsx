@@ -10,12 +10,12 @@ import Services from "./services/page";
 
 export default function Home() {
   const galleryImages = [
+    "/images/pic6.jpg",
     "/images/pic1.jpg",
     "/images/pic2.jpg",
     "/images/pic3.jpg",
     "/images/pic4.jpg",
     "/images/pic5.jpg",
-    "/images/pic6.jpg",
   ];
 
   return (
@@ -33,17 +33,17 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="services" className="bg-gray-400">
+        <Services />
+      </section>
       <div className="md:flex  md:justify-center  mx-auto gap-4">
         <section id="about" className="scroll-mt-24">
-          <About />
+          {/* <About /> */}
         </section>
         <section id="contact" className="scroll-mt-24">
           <Contact />
         </section>
       </div>
-      <section id="services" className="bg-gray-400">
-      <Services />
-      </section>
       <Footer />
     </div>
   );
