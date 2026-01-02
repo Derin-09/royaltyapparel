@@ -7,6 +7,7 @@ import About from "./about/page";
 import Contact from "./contact/page";
 import Portfolio from "./portfolio/page";
 import Services from "./services/page";
+import GalleryWithCloudinary from "@/components/CloudinaryGallery";
 
 export default function Home() {
   const galleryImages = [
@@ -24,12 +25,14 @@ export default function Home() {
         <Hero
           title="Royalty Apparel - Toyin&apos;s Styles"
           subtitle="Where African roots kiss modern silhouettes."
-          image="/images/hero.jpg"
+          image="/images/fashionwebsite.png"
         />
       </section>
       <section id="portfolio" className="py-20  bg-ivory">
-        <div className="container mx-auto px-6">
-          <GalleryGrid images={galleryImages} />
+        <div className="container mx-auto px-6 space-y-4">
+          <p>What we&apos;s wearing now</p>
+          {/* <GalleryGrid images={galleryImages} /> */}
+          <GalleryWithCloudinary />
         </div>
       </section>
 

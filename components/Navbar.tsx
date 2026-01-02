@@ -8,7 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-ebony/90 text-ivory py-4 sticky top-0 z-50 select-none h-[64px]">
+    <nav className="bg-ebony/80 text-ivory py-4 sticky top-0 z-50 select-none h-[64px]">
       <div className="container mx-auto px-6 flex justify-between items-center">
         <h1 className="text-2xl font-display text-clay font-semibold">
           Royalty Apparel
