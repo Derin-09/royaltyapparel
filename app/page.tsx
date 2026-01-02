@@ -30,7 +30,7 @@ export default function Home() {
       </section>
       <section id="portfolio" className="py-20  bg-ivory">
         <div className="container mx-auto px-6 space-y-4">
-          <p>What we&apos;s wearing now</p>
+          <p className="font-display text-5xl mb-10 text-umber">What we&apos;re wearing now</p>
           {/* <GalleryGrid images={galleryImages} /> */}
           <GalleryWithCloudinary />
         </div>

@@ -58,7 +58,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
                     onClick={() => openLightbox(globalIndex)}
                   >
                     <Image
-                      src={src}
+                      src={`https://res.cloudinary.com/dexchhhbs/image/upload/${src}`}
                       alt={`Gallery image ${globalIndex + 1}`}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -98,7 +98,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
                 <SwiperSlide key={index}>
                   <div className="relative w-full h-[70vh] bg-transparent">
                     <Image
-                      src={src}
+                      src={`https://res.cloudinary.com/dexchhhbs/image/upload/${src}`}
                       alt={`Full view ${index + 1}`}
                       fill
                       className="object-contain"
@@ -127,6 +127,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
                       index === lightboxIndex ? 'border-purple-500 opacity-100' : 'border-transparent opacity-60'
                     }`}
                   >
+                    {/* https://res.cloudinary.com/dexchhhbs/image/upload */}
                     <Image
                       src={`https://res.cloudinary.com/dexchhhbs/image/upload/${src}`}
                       alt={`Thumb ${index + 1}`}
